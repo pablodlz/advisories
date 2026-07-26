@@ -1,0 +1,28 @@
+# Never commit anything that names a target.
+CNAME
+/evidence/
+/screenshots/
+*.png
+*.jpg
+*.jpeg
+*.har
+*.log
+
+# platform CLI state and secrets
+.vercel/
+.netlify/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# local tooling / editors / OS
+.claude/
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
